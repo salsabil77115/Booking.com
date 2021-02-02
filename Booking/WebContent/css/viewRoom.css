@@ -1,0 +1,60 @@
+@charset "ISO-8859-1";
+
+html {
+	box-sizing: border-box;
+}
+
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
+.column {
+	float: left;
+	width: 35%;
+	margin-bottom: 16px;
+	padding: 0 8px;
+}
+
+.card {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	background-color: white;
+}
+
+.container {
+	padding: 0 10px;
+}
+
+.container::after, .row::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+
+.title {
+	color: grey;
+}
+
+.button {
+	border: none;
+	outline: 0;
+	display: inline-block;
+	padding: 8px;
+	color: white;
+	background-color: #000;
+	text-align: center;
+	cursor: pointer;
+	width: 40%;
+	text-decoration: none;
+}
+
+.button:hover {
+	background-color: #555;
+}
+
+body {
+	font-family: Arial;
+	background-image: url("image/122.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}

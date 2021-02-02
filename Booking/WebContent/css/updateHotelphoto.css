@@ -1,0 +1,33 @@
+@charset "ISO-8859-1";
+
+a {
+	font-size: 15px;
+}
+
+.column {
+	width: 40%;
+	padding: 0 8px;
+}
+
+.card {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	background-color: white;
+}
+
+.container {
+	padding: 0 10px;
+}
+
+.container::after, .row::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+
+body, h1, h2, h3, h4, h5, h6 {
+	font-family: "Raleway", Arial, Helvetica, sans-serif
+}
+
+.checked {
+	color: orange;
+}

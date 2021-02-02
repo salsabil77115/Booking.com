@@ -1,0 +1,82 @@
+@charset "ISO-8859-1";
+html,body,h1,h2,h3,h4,h5 {font-family: "RobotoDraft", "Roboto", sans-serif}
+.w3-bar-block .w3-bar-item {padding: 16px}
+input {
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  color: black;
+  border-radius: 10px;
+}
+label{
+font-size:20px;
+color:white;
+
+}
+.column {
+  float: left;
+  width: 100%;
+  margin-bottom: 19px;
+  padding: 0 8px;
+  text-align: center;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  
+}
+
+.container {
+  padding: 0 10px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 40%;
+}
+button{background-color: #e7e7e7; color: black;} /* Gray */ 
+
+button {
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+ margin-left: 100px;
+ border-radius:10px; 
+}
+.button:hover {
+  background-color: #555;
+}
+body {
+  font-family: Arial;
+   background-image: url("image/ee.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+    background-position: center;
+}
+p{
+font-size: 20px; 
+font-weight: bold;
+}
